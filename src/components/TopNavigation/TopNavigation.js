@@ -40,6 +40,7 @@ class TopNavigation extends Component {
                         </Nav>
                         <Nav>
                         <Nav.Link>   <NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/about">ABOUT</NavLink></Nav.Link>
+                        <Nav.Link>   <NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/resume">RESUME</NavLink></Nav.Link>
                           <Nav.Link>   <NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/project">PROJECTS</NavLink></Nav.Link>
                           <Nav.Link>   <NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/contact">CONTACT</NavLink></Nav.Link>
                           <Nav.Link>   <NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/service">SERVICES</NavLink></Nav.Link>

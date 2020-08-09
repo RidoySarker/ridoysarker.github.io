@@ -47,11 +47,11 @@ class AboutDescription extends Component {
                             </Form.Group>
 
                             <Form.Group as={Row} controlId="formPlaintextEmail" className="form-flex">
-                                <Form.Label column sm="2">
+                                <Form.Label column sm="2" style={{marginTop: "-5px"}}>
                                 Github:
                                 </Form.Label>
                                 <Col sm="10">
-                                <Form.Control plaintext readOnly defaultValue="https://github.com/RidoySarker" />
+                                    <a href="https://github.com/RidoySarker">https://github.com/RidoySarker</a>
                                 </Col>
                             </Form.Group>
 
